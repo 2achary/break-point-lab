@@ -1,0 +1,158 @@
+    1  ls
+    2  pwd
+    3  sudo -i
+    4  apt-get update
+    5  sudo apt-get update
+    6  exit
+    7  sudo apt-get install nginx
+    8  git clone https://github.com/2achary/break-point-lab.git
+    9  ls
+   10  cd break-point-lab/
+   11  ls
+   12  npm 
+   13  sudo apt install npm
+   14  sudo apt install nodejs
+   15  npm install
+   16  cd
+   17  curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh
+   18  ls
+   19  sudo bash nodesource_setup.sh 
+   20  sudo apt-get install nodejs
+   21  nodejs
+   22  nodejs -v
+   23  sudo apt-get install build-essential
+   24  cd break-point-lab/
+   25  npm install
+   26  vim 
+   27  vim /etc/nginx/nginx.conf 
+   28  sudo vim /etc/nginx/nginx.conf 
+   29  sudo nginx -s reload
+   30  sudo vim /etc/nginx/nginx.conf 
+   31  sudo nginx -s reload
+   32  sudo vim /etc/nginx/nginx.conf 
+   33  sudo nginx -s reload
+   34  npm start
+   35  npm install prismjs 
+   36  npm start
+   37  vim webpack.config.js 
+   38  npm start
+   39  vim webpack.config.js 
+   40  npm start
+   41  vim webpack.config.js 
+   42  npm start
+   43  vim /etc/nginx/nginx.conf 
+   44  sudo vim /etc/nginx/nginx.conf 
+   45  nginx -s reload
+   46  sudo nginx -s reload
+   47  sudo vim /etc/nginx/nginx.conf 
+   48  sudo nginx -s reload
+   49  cd break-point-lab/
+   50  ls
+   51  pwd
+   52  npm install
+   53  npm start
+   54  nodejs node_modules/node-sass/scripts/install.js
+   55  npm rebuild node-sass
+   56  npm start
+   57  npm start &
+   58  npm run build
+   59  npm start
+   60  cd break-point-lab/
+   61  nohup npm start &
+   62  vim courses/models.py 
+   63  exit
+   64  cd break-point-lab/
+   65  npm start
+   66  npm run build
+   67  sudo vim /etc/nginx/nginx.conf 
+   68  sudo nginx -s reload
+   69  sudo vim /etc/nginx/nginx.conf 
+   70  sudo nginx -s reload
+   71  ls
+   72  cd dist/
+   73  pwd
+   74  ls
+   75  tail -f /var/log/nginx/error.log 
+   76  sudo vim /etc/nginx/nginx.conf 
+   77  sudo nginx -s reload
+   78  cd api
+   79  cd 
+   80  cd break-point-lab/
+   81  cd api/
+   82  ls
+   83  python manage.py migrate
+   84  python -
+   85  python -v
+   86  python --version
+   87  python3 --version
+   88  pip3 install pipenv
+   89  sudo apt install python3-pip
+   90  pip3 install pipenv
+   91  pipenv --python 3.5
+   92  ls
+   93  cat Pipfile 
+   94  pipenv install djangorestframework
+   95  cat Pipfile
+   96  which python
+   97  python manage.py migrate
+   98  pipenv lock
+   99  python manage.py migrate
+  100  python3 manage.py migrate
+  101  ls
+  102  ls -a
+  103  pipenv manage.py migrate
+  104  pipenv run python manage.py migrate
+  105  pipenv install django
+  106  pipenv run python manage.py migrate
+  107  pip3 install djangorestframework
+  108  sudo pip3 install djangorestframework
+  109  python3 manage.py migrate
+  110  pip3 install django
+  111  sudo ~~
+  112  sudo pip3 install django
+  113  python3 manage.py migrate
+  114  tmux
+  115  git status
+  116  cd break-point-lab/
+  117  git status
+  118  ls
+  119  ls -a
+  120  echo "*__pycache__*" >> .gitignore 
+  121  git add .gitignore 
+  122  git status
+  123  vim .gitignore 
+  124  git add .gitignore 
+  125  git status
+  126  echo "*.pyc" >> .gitignore 
+  127  git status
+  128  vim .gitignore 
+  129  git add .gitignore 
+  130  git status
+  131  git add api/Pipfile
+  132  git add api/Pipfile.lock 
+  133  echo "api/courses/__pycache__/" >> .gitignore
+  134  git add .gitignore 
+  135  git status
+  136  ls -a
+  137  git add webpack.config.js 
+  138  git add deploy/
+  139  git status
+  140  git commit -m 'Deploy details'
+  141  git status
+  142  rm nohup.out 
+  143  git rm -r --cached .
+  144  git status
+  145  git add .
+  146  git status
+  147  ls
+  148  ls api/
+  149  ls src/
+  150  git commit -m 'Fix tracked files
+;
+'
+  151  git stauts
+  152  git status
+  153  git push 
+  154  git push origin master
+  155  history
+  156  history >> deploy/provisioning-history.txt
