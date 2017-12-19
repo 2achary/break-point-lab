@@ -7,8 +7,6 @@ typings/
 **/*yarn-error.log.*
 .idea/
 .DS_Store
-package-lock.json
-.npmrc
 __pycache__/
 *.pyc
 # Byte-compiled / optimized / DLL files
