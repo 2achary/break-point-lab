@@ -404,15 +404,15 @@ module.exports = {
       "sourceMap": true,
       "filename": "scripts.bundle.js",
       "scripts": [
-        "/Users/zswift/projects/breakpointlab/node_modules/prismjs/prism.js",
-        "/Users/zswift/projects/breakpointlab/node_modules/prismjs/components/prism-typescript.min.js",
-        "/Users/zswift/projects/breakpointlab/node_modules/core-js/client/shim.min.js",
-        "/Users/zswift/projects/breakpointlab/node_modules/mutationobserver-shim/dist/mutationobserver.min.js",
-        "/Users/zswift/projects/breakpointlab/node_modules/@webcomponents/custom-elements/custom-elements.min.js",
-        "/Users/zswift/projects/breakpointlab/node_modules/clarity-icons/clarity-icons.min.js",
-        "/Users/zswift/projects/breakpointlab/node_modules/web-animations-js/web-animations.min.js"
+        "./node_modules/prismjs/prism.js",
+        "./node_modules/prismjs/components/prism-typescript.min.js",
+        "./node_modules/core-js/client/shim.min.js",
+        "./node_modules/mutationobserver-shim/dist/mutationobserver.min.js",
+        "./node_modules/@webcomponents/custom-elements/custom-elements.min.js",
+        "./node_modules/clarity-icons/clarity-icons.min.js",
+        "./node_modules/web-animations-js/web-animations.min.js"
       ],
-      "basePath": "/Users/zswift/projects/breakpointlab"
+      "basePath": "."
     }),
     new CopyWebpackPlugin([
       {
@@ -444,7 +444,7 @@ module.exports = {
       "exclude": /(\\|\/)node_modules(\\|\/)/,
       "failOnError": false,
       "onDetected": false,
-      "cwd": "/Users/zswift/projects/breakpointlab"
+      "cwd": "."
     }),
     new NamedLazyChunksWebpackPlugin(),
     new HtmlWebpackPlugin({

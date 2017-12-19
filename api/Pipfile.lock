@@ -1,0 +1,55 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "2a101a9224707334dccb1930555a3733762ff56004f284afd782677fe6b42a66"
+        },
+        "host-environment-markers": {
+            "implementation_name": "cpython",
+            "implementation_version": "3.5.2",
+            "os_name": "posix",
+            "platform_machine": "x86_64",
+            "platform_python_implementation": "CPython",
+            "platform_release": "4.4.0-1044-aws",
+            "platform_system": "Linux",
+            "platform_version": "#53-Ubuntu SMP Mon Dec 11 13:49:57 UTC 2017",
+            "python_full_version": "3.5.2",
+            "python_version": "3.5",
+            "sys_platform": "linux"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.5"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "django": {
+            "hashes": [
+                "sha256:e66d58bfeed3a5eb44f2af6d5f1b6a85d656c4180ebba63b692e58d29db2a716",
+                "sha256:05fe4b19a8778d4b48bbf1f4dfca3106881fea7982664553e7f7f861606f7c66"
+            ],
+            "version": "==1.9"
+        },
+        "djangorestframework": {
+            "hashes": [
+                "sha256:79268055755125caaebface3acbe13150bbc3a83b78e9bf1a1abfde7ab0c5231",
+                "sha256:067960e5e9e5586d3b2d53a1d626c4800dc33cd8309487d404fc63355674556f"
+            ],
+            "version": "==3.7.3"
+        },
+        "gunicorn": {
+            "hashes": [
+                "sha256:75af03c99389535f218cc596c7de74df4763803f7b63eb09d77e92b3956b36c6",
+                "sha256:eee1169f0ca667be05db3351a0960765620dad53f53434262ff8901b68a1b622"
+            ],
+            "version": "==19.7.1"
+        }
+    },
+    "develop": {}
+}
