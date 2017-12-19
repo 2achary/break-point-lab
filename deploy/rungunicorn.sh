@@ -1,1 +1,1 @@
-pipenv run gunicorn -D ed_reviews.wsgi
+gunicorn -D ed_reviews.wsgi
