@@ -6,6 +6,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
     templateUrl: './register.component.html',
 })
 export class RegisterComponent {
+    open: Boolean = false;
     user: any = {};
     errors = false;
     constructor(private http: HttpClient) {
@@ -19,7 +20,7 @@ export class RegisterComponent {
         } else {
             this.errors = false;
         }
-        console.log(this.user)
-        this.http.post('/api/v1/register', {username: this.user.name, password: this.user.password} )
+        console.log(this.user);
+        // this.http.post('/api/v1/register', {username: this.user.name, password: this.user.password} )
     }
 }
