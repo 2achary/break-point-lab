@@ -535,6 +535,9 @@ module.exports = {
     "setImmediate": false
   },
   "devServer": {
-    "historyApiFallback": true
+    "historyApiFallback": true,
+    "proxy": {
+      "/api": "http://localhost:8000"
+    }
   }
 };
