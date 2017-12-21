@@ -19,15 +19,24 @@ from django.contrib import admin
 from rest_framework import routers
 
 from courses import views
+from django.http import JsonResponse
 
 router = routers.SimpleRouter()
 router.register(r'courses', views.CourseViewSet)
 router.register(r'reviews', views.ReviewViewSet)
 
+
+def register(request):
+    return JsonResponse({'hey': 'there'})
+
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api-auth/', include('rest_framework.urls',
                                namespace='rest_framework')),
+    url(r'^api/v1/register/$', register, name='register'),
     url(r'^api/v1/courses/', include('courses.urls', namespace='courses')),
     url(r'^api/v2/', include(router.urls, namespace='apiv2')),
+
 ]
+

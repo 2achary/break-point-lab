@@ -21,6 +21,9 @@ export class RegisterComponent {
             this.errors = false;
         }
         console.log(this.user);
-        // this.http.post('/api/v1/register', {username: this.user.name, password: this.user.password} )
+        debugger;
+        this.http.get('/api/v1/register/', <any>{username: this.user.name, password: this.user.password} ).subscribe((resp) =>{
+            console.log(resp)
+        })
     }
 }
